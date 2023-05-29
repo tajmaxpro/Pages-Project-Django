@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sariq.dev</title>
+</head>
+<body>
+<header>
+  <a href="{% url 'home' %}">Home page</a>
+  <a href="{% url 'about' %}">About site</a>
+  <a href="{% url 'creator' %}">Creator</a>
+  <a href="{% url 'tutor' %}">Tutor</a>
+</header>
+
+{% block content %}
+{% endblock content %}
+
+</body>
+</html>
